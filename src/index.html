@@ -83,13 +83,15 @@
         <div class="main-bar-wraper">
           <div class="container-fluid">
             <div class="flex items-center 2xl:gap-40 gap-20 sm:py-40 py-20">
-              <div class="logo xl:me-20 xl:flex-0 flex-1">
+              <div class="logo xl:me-20 xl:flex-0 flex-1" style="min-width: 140px;">
                 <div class="dark:block hidden">
                   <a href="index.html">
                     <img
                       src="assets/images/logo.png"
                       alt="Mediara Logo"
-                      class="h-10 sm:h-12 w-auto object-contain"
+                      width="140"
+                      height="42"
+                      style="height: 42px; width: auto; max-width: 140px; object-fit: contain; border-radius: 4px;"
                     />
                   </a>
                 </div>
@@ -98,7 +100,9 @@
                     <img
                       src="assets/images/logo.png"
                       alt="Mediara Logo"
-                      class="h-10 sm:h-12 w-auto object-contain"
+                      width="140"
+                      height="42"
+                      style="height: 42px; width: auto; max-width: 140px; object-fit: contain; border-radius: 4px;"
                     />
                   </a>
                 </div>
@@ -109,13 +113,15 @@
               <div
                 class="header-nav navbar-collapse full-sidenav grow custom-scroll"
               >
-                <div class="logo xl:hidden xl:mb-0 mb-50">
+                <div class="logo xl:hidden xl:mb-0 mb-50" style="min-width: 140px;">
                   <div class="dark:block hidden">
                     <a href="index.html">
                       <img
                         src="assets/images/logo.png"
                         alt="Mediara Logo"
-                        class="h-10 sm:h-12 w-auto object-contain"
+                        width="140"
+                        height="42"
+                        style="height: 42px; width: auto; max-width: 140px; object-fit: contain; border-radius: 4px;"
                       />
                     </a>
                   </div>
@@ -124,32 +130,34 @@
                       <img
                         src="assets/images/logo.png"
                         alt="Mediara Logo"
-                        class="h-10 sm:h-12 w-auto object-contain"
+                        width="140"
+                        height="42"
+                        style="height: 42px; width: auto; max-width: 140px; object-fit: contain; border-radius: 4px;"
                       />
                     </a>
                   </div>
                 </div>
                 <ul class="nav navbar xl:flex xl:w-auto w-full">
                   <li class="">
-                    <a href="#hero"><span>Home</span></a>
+                    <a href="#hero"><span>Beranda</span></a>
                   </li>
                   <li class="">
-                    <a href="#portfolio"><span>Portfolio</span></a>
+                    <a href="#portfolio"><span>Portofolio</span></a>
                   </li>
                   <li class="">
-                    <a href="#workflow"><span>Workflow</span></a>
+                    <a href="#workflow"><span>Alur Kerja</span></a>
                   </li>
                   <li class="">
-                    <a href="#pricing"><span>Pricing</span></a>
+                    <a href="#pricing"><span>Harga Paket</span></a>
                   </li>
                   <li class="">
-                    <a href="#faq"><span>FAQ</span></a>
+                    <a href="#faq"><span>Tanya Jawab</span></a>
                   </li>
                   <li class="">
-                    <a href="#clients"><span>Clients</span></a>
+                    <a href="#clients"><span>Klien</span></a>
                   </li>
                   <li class="">
-                    <a href="#contact"><span>Let’s talk</span></a>
+                    <a href="#contact"><span>Hubungi Kami</span></a>
                   </li>
                 </ul>
               </div>
@@ -253,7 +261,7 @@
                   href="https://wa.me/6281234567890?text=Halo%20Mediara%2C%20saya%20tertarik%20untuk%20diskusi%20proyek."
                   class="btn btn-primary max-xl:hidden group"
                 >
-                  <span class="pxl-button-text">Discuss the Project</span>
+                  <span class="pxl-button-text">Konsultasi Sekarang</span>
                   <span class="block ms-5 overflow-hidden">
                     <svg
                       class="group-hover:animate-toTopFromBottom"
@@ -305,9 +313,9 @@
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <div class="page-content dark:bg-bodybg bg-white">
-            <!-- 1. HERO SECTION -->
+            <!-- 1. HERO SECTION  sm:pb-150 pb-30-->
             <section
-              class="main-banner lg:pt-210 sm:pt-170 pt-130 sm:pb-150 pb-30 relative after:content-[''] after:absolute after:top-200 after:left-0 after:size-full after:bg-no-repeat after:mix-blend-lighten after:pointer-events-none after:bg-contain after:bg-[url('../images/background/pic2.png')] max-sm:after:hidden dark:after:opacity-100"
+              class="main-banner lg:pt-210 sm:pt-170 pt-130 relative after:content-[''] after:absolute after:top-200 after:left-0 after:size-full after:bg-no-repeat after:mix-blend-lighten after:pointer-events-none after:bg-contain after:bg-[url('../images/background/pic2.png')] max-sm:after:hidden dark:after:opacity-100"
               id="hero"
             >
               <div class="container">
@@ -317,8 +325,8 @@
                       <h1
                         class="md:text-7xl sm:text-6xl text-[40px]/42 font-bold"
                       >
-                        All-in-one solution: Web Design, Custom Systems & Event
-                        Platforms
+                        Website Mewah & Sistem Keren Bikin Bisnis Melejit, Mulai
+                        dari Rp 499rb!
                       </h1>
                     </div>
                   </div>
@@ -347,12 +355,12 @@
                       <p
                         class="sm:text-2xxl text-xl font-extralight dark:text-white text-dark"
                       >
-                        Mitra pengembang solusi digital: website profil,
-                        platform event & ticketing, hingga sistem kasir &
-                        operasional peternakan.
+                        Kualitas setara agensi papan atas, anti-lemot, dan siap
+                        pakai. Tingkatkan omset serta kredibilitas bisnis Anda
+                        dengan harga paling hemat dan bergaransi!
                       </p>
                     </div>
-                    <div class="flex items-center gap-14">
+                    <!-- <div class="flex items-center gap-14">
                       <div>
                         <img
                           src="assets/images/avatar/pic1.png"
@@ -380,7 +388,7 @@
                           >& Scalable</span
                         >
                       </div>
-                    </div>
+                    </div> -->
                   </div>
                 </div>
               </div>
@@ -391,7 +399,7 @@
             >
               <div class="container-fluid text-center">
                 <div class="sm:-mt-263 -mt-100 inline-block">
-                  <div class="overflow-hidden rounded-2lg relative">
+                  <!-- <div class="overflow-hidden rounded-2lg relative">
                     <div class="img-box">
                       <img
                         src="assets/images/home-1.png"
@@ -422,7 +430,7 @@
                         </svg>
                       </span>
                     </button>
-                  </div>
+                  </div> -->
                 </div>
               </div>
               <div class="container">
@@ -453,14 +461,15 @@
                           </div>
                         </div>
                         <div class="sm:mb-30 mb-10">
-                          <h4 class="text-2xl text-black">POS & Retail</h4>
+                          <h4 class="text-2xl text-black">Hemat Biaya & Tanpa Iuran</h4>
                           <p class="text-[#4B4B4B]">
-                            Sistem kasir multi-outlet, kontrol inventaris, dan
-                            pembukuan instan tanpa biaya bulanan.
+                            Dapatkan website & sistem eksklusif hak milik penuh
+                            tanpa beban biaya langganan bulanan yang menguras kas
+                            usaha Anda.
                           </p>
                         </div>
                         <div class="">
-                          <a
+                          <!-- <a
                             href="#portfolio"
                             class="btn btn-outline btn-hover mb-20 group/second"
                           >
@@ -492,11 +501,11 @@
                                 />
                               </svg>
                             </span>
-                          </a>
+                          </a> -->
                           <div
                             class="relative h-1 w-full bg-black/10 after:content-[''] after:absolute after:top-0 after:left-0 after:h-1 after:w-0 after:bg-black after:duration-500 group-hover:after:w-full"
                           ></div>
-                          <ul class="mt-20">
+                          <!-- <ul class="mt-20">
                             <li class="inline-block me-5">
                               <a
                                 href="#portfolio"
@@ -518,7 +527,7 @@
                                 >Multi-Cabang</a
                               >
                             </li>
-                          </ul>
+                          </ul> -->
                         </div>
                       </div>
                     </div>
@@ -547,14 +556,15 @@
                           </div>
                         </div>
                         <div class="sm:mb-30 mb-10">
-                          <h4 class="text-2xl text-black">Sistem Peternakan</h4>
+                          <h4 class="text-2xl text-black">Kerja Otomatis & Bebas Ribet</h4>
                           <p class="text-[#4B4B4B]">
-                            Monitoring siklus hidup ternak, manajemen stok
-                            pakan, dan pencatatan kesehatan.
+                            Tinggalkan pembukuan manual. Seluruh data transaksi,
+                            stok, hingga operasional bisnis tercatat akurat dan
+                            serba otomatis.
                           </p>
                         </div>
                         <div class="">
-                          <a
+                          <!-- <a
                             href="#portfolio"
                             class="btn btn-outline btn-hover mb-20 group/second"
                           >
@@ -586,11 +596,11 @@
                                 />
                               </svg>
                             </span>
-                          </a>
+                          </a> -->
                           <div
                             class="relative h-1 w-full bg-black/10 after:content-[''] after:absolute after:top-0 after:left-0 after:h-1 after:w-0 after:bg-black after:duration-500 group-hover:after:w-full"
                           ></div>
-                          <ul class="mt-20">
+                          <!-- <ul class="mt-20">
                             <li class="inline-block me-5">
                               <a
                                 href="#portfolio"
@@ -612,7 +622,7 @@
                                 >Panen</a
                               >
                             </li>
-                          </ul>
+                          </ul> -->
                         </div>
                       </div>
                     </div>
@@ -648,14 +658,15 @@
                           </div>
                         </div>
                         <div class="sm:mb-30 mb-10">
-                          <h4 class="text-2xl text-black">Event & Ticketing</h4>
+                          <h4 class="text-2xl text-black">Bikin Omset Melejit Cepat</h4>
                           <p class="text-[#4B4B4B]">
-                            Pemesanan tiket online, tiket QR check-in panitia,
-                            bebas potongan komisi pihak ketiga.
+                            Tampilan profesional yang dirancang khusus untuk
+                            memikat calon pembeli dan melipatgandakan konversi
+                            penjualan Anda.
                           </p>
                         </div>
                         <div class="">
-                          <a
+                          <!-- <a
                             href="#portfolio"
                             class="btn btn-outline btn-hover mb-20 group/second"
                           >
@@ -687,11 +698,11 @@
                                 />
                               </svg>
                             </span>
-                          </a>
+                          </a> -->
                           <div
                             class="relative h-1 w-full bg-black/10 after:content-[''] after:absolute after:top-0 after:left-0 after:h-1 after:w-0 after:bg-black after:duration-500 group-hover:after:w-full"
                           ></div>
-                          <ul class="mt-20">
+                          <!-- <ul class="mt-20">
                             <li class="inline-block me-5">
                               <a
                                 href="#portfolio"
@@ -713,7 +724,7 @@
                                 >Scan Check-in</a
                               >
                             </li>
-                          </ul>
+                          </ul> -->
                         </div>
                       </div>
                     </div>
@@ -742,14 +753,15 @@
                           </div>
                         </div>
                         <div class="sm:mb-30 mb-10">
-                          <h4 class="text-2xl text-black">Company Profile</h4>
+                          <h4 class="text-2xl text-black">Brand Naik Kelas & Terpercaya</h4>
                           <p class="text-[#4B4B4B]">
-                            Landing page konversi tinggi, branding visual
-                            modern, dan SEO-friendly.
+                            Desain visual modern berkelas agensi yang membuat
+                            profil bisnis Anda langsung dipercaya klien besar
+                            dan unggul bersaing.
                           </p>
                         </div>
                         <div class="">
-                          <a
+                          <!-- <a
                             href="#portfolio"
                             class="btn btn-outline btn-hover mb-20 group/second"
                           >
@@ -781,11 +793,11 @@
                                 />
                               </svg>
                             </span>
-                          </a>
+                          </a> -->
                           <div
                             class="relative h-1 w-full bg-black/10 after:content-[''] after:absolute after:top-0 after:left-0 after:h-1 after:w-0 after:bg-black after:duration-500 group-hover:after:w-full"
                           ></div>
-                          <ul class="mt-20">
+                          <!-- <ul class="mt-20">
                             <li class="inline-block me-5">
                               <a
                                 href="#portfolio"
@@ -807,7 +819,7 @@
                                 >Branding</a
                               >
                             </li>
-                          </ul>
+                          </ul> -->
                         </div>
                       </div>
                     </div>
@@ -828,7 +840,7 @@
                         <h2
                           class="lg:text-8xl sm:text-7xl/65 text-[50px]/50 lg:mb-80 sm:mb-50 mb-20 heading-text xl:text-start text-center"
                         >
-                          Award winning creativity
+                          Portofolio Karya Nyata Kami
                         </h2>
                         <div class="text-center">
                           <a
@@ -844,7 +856,7 @@
                                 class="flex justify-center items-center size-200 rounded-full dark:bg-bodybg bg-white text-row text-center animate-rotate word-rotate-box relative z-10"
                               >
                                 <span class="word-rotate"
-                                  >let's Create together</span
+                                  >Wujudkan Bersama Kami</span
                                 >
                                 <svg
                                   class="block animate-rotate [animation-direction:reverse] badge__emoji"
@@ -905,7 +917,7 @@
                               </h4>
                               <span
                                 class="dark:text-white/40 text-black/40 text-sm uppercase"
-                                >Web Application · POS System</span
+                                >Aplikasi Web · Sistem Kasir POS</span
                               >
                             </div>
                             <a
@@ -942,11 +954,11 @@
                         </div>
                       </div>
                       <!-- Card 2 & 3: Side by Side -->
-                      <div
+                      <!-- <div
                         class="flex max-sm:flex-col md:gap-60 gap-30 mb-30 3xl:-ms-40 3xl:-me-230"
-                      >
+                      > -->
                         <!-- Card 2: Sistem Peternakan -->
-                        <div class="group">
+                        <!-- <div class="group">
                           <div
                             class="mb-20 overflow-hidden wow clip-right-animation"
                           >
@@ -1003,9 +1015,9 @@
                               </svg>
                             </a>
                           </div>
-                        </div>
+                        </div> -->
                         <!-- Card 3: Event & E-Ticketing -->
-                        <div class="group">
+                        <!-- <div class="group">
                           <div
                             class="mb-20 overflow-hidden wow clip-right-animation"
                           >
@@ -1062,8 +1074,8 @@
                               </svg>
                             </a>
                           </div>
-                        </div>
-                      </div>
+                        </div> -->
+                      <!-- </div> -->
                       <!-- Card 4: Company Profile & Landing Page -->
                       <div class="flex justify-center mb-30">
                         <div class="group">
@@ -1089,7 +1101,7 @@
                               </h4>
                               <span
                                 class="dark:text-white/40 text-black/40 text-sm uppercase"
-                                >Branding & Web · Corporate Profile</span
+                                >Branding & Website · Profil Perusahaan Ekspor</span
                               >
                             </div>
                             <a
@@ -1165,7 +1177,7 @@
                       <h5
                         class="dark:text-primary text-lg/[24px] mb-10 font-semibold"
                       >
-                        Start Project
+                        Mulai Proyek
                       </h5>
                     </div>
                     <div class="w-full">
@@ -1184,7 +1196,7 @@
                               <h4
                                 class="sm:text-2xl text-xl font-semibold capitalize dark:text-primary mb-15"
                               >
-                                Project Analysis & Briefing
+                                Analisis Kebutuhan & Konsultasi
                               </h4>
                               <p class="text-lg text-lightgrey">
                                 Konsultasi kebutuhan awal, ruang lingkup sistem
@@ -1209,7 +1221,7 @@
                               <h4
                                 class="sm:text-2xl text-xl font-semibold capitalize dark:text-primary mb-15"
                               >
-                                UI/UX Wireframing & Prototyping
+                                Perancangan Desain Visual (UI/UX)
                               </h4>
                               <p class="text-lg text-lightgrey">
                                 Perancangan antarmuka agar intuitif dan mudah
@@ -1233,7 +1245,7 @@
                               <h4
                                 class="sm:text-2xl text-xl font-semibold capitalize dark:text-primary mb-3.75"
                               >
-                                Meet Online (Review Desain & Setup Akun)
+                                Temu Daring (Review Desain & Setup)
                               </h4>
                               <p class="text-lg text-lightgrey">
                                 Pertemuan virtual bersama klien untuk mengunci
@@ -1259,7 +1271,7 @@
                               <h4
                                 class="sm:text-2xl text-xl font-semibold capitalize dark:text-primary mb-3.75"
                               >
-                                System & Web Development
+                                Pengembangan Website & Sistem
                               </h4>
                               <p class="text-lg text-lightgrey">
                                 Pembuatan kode frontend & backend yang bersih,
@@ -1283,7 +1295,7 @@
                               <h4
                                 class="sm:text-2xl text-xl font-semibold capitalize dark:text-primary mb-3.75"
                               >
-                                Internal Testing & Bug Fixing
+                                Pengujian Kualitas & Uji Coba
                               </h4>
                               <p class="text-lg text-lightgrey">
                                 Uji fungsionalitas logika sistem, integrasi
@@ -1307,7 +1319,7 @@
                               <h4
                                 class="sm:text-2xl text-xl font-semibold capitalize dark:text-primary mb-3.75"
                               >
-                                Serah Terima, Panduan & Launching
+                                Peluncuran & Serah Terima Akses
                               </h4>
                               <p class="text-lg text-lightgrey">
                                 Demo penggunaan kepada klien/panitia, penyerahan
@@ -1323,7 +1335,7 @@
                       <h5
                         class="text-primary text-lg leading-6 mb-10 font-semibold"
                       >
-                        END
+                        Selesai & Siap Pakai
                       </h5>
                       <div
                         class="arrow-bx fa faa-horizontal animate horizontal"
@@ -1345,7 +1357,7 @@
                     <h2
                       class="xl:text-7xl/80 md:text-5xl text-4xl font-semibold heading-text"
                     >
-                      Transparent Pricing for Tailored Digital Solutions
+                      Pilihan Paket Harga Transparan & Terjangkau
                     </h2>
                   </div>
                   <div class="grid grid-cols-12 gap-20 pricing-container">
@@ -1356,7 +1368,7 @@
                             <h3
                               class="dark:text-white text-dark text-[55px]/46 title"
                             >
-                              Rp 750rb
+                              Rp 499rb
                               <span class="text-lightgrey text-lg font-normal"
                                 >/mulai</span
                               >
@@ -1368,10 +1380,10 @@
                             Landing Page
                           </h4>
                           <p class="mb-40 font-normal text-lg/24">
-                            Promosi produk tunggal, portofolio personal,
-                            campaign singkat
+                            Promosi produk tunggal, portofolio personal, atau
+                            campaign berdaya pikat tinggi.
                           </p>
-                          <ul class="list-items">
+                          <!-- <ul class="list-items">
                             <li
                               class="relative py-4.5 ps-30 text-lightgrey before:content-['\f00c'] before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:size-20 before:leading-20 before:text-center before:text-dark before:text-xs before:rounded-full before:font-black before:font-['Font_Awesome_6_Free'] before:bg-primary"
                             >
@@ -1402,19 +1414,19 @@
                             >
                               Setup Domain / Hosting
                             </li>
-                          </ul>
+                          </ul> -->
                         </div>
                         <div class="p-40">
                           <a
-                            href="https://wa.me/6281234567890?text=Halo%20Mediara%2C%20saya%20tertarik%20paket%20Landing%20Page%20(Rp%20750rb)"
+                            href="https://wa.me/6281234567890?text=Halo%20Mediara%2C%20saya%20tertarik%20paket%20Landing%20Page%20(Rp%20499rb)"
                             class="btn text-base font-medium w-full text-center block py-12 rounded-none bg-primary text-dark cursor-pointer"
                           >
-                            <span class="pxl-button-text"> Choose plan</span>
+                            <span class="pxl-button-text">Pilih Paket</span>
                           </a>
                         </div>
                         <span
                           class="absolute -top-10 right-1 py-8 px-16 text-xs/[1] font-semibold dark:bg-white dark:text-black bg-black text-white hidden badge"
-                          >LANDING PAGE</span
+                          >PROMO SPESIAL</span
                         >
                       </div>
                     </div>
@@ -1439,7 +1451,7 @@
                           <p class="mb-40 font-normal text-lg/24">
                             Bisnis jasa, agensi lokal, instansi, UMKM berkembang
                           </p>
-                          <ul class="list-items">
+                          <!-- <ul class="list-items">
                             <li
                               class="relative py-4.5 ps-30 text-lightgrey before:content-['\f00c'] before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:size-20 before:leading-20 before:text-center before:text-dark before:text-xs before:rounded-full before:font-black before:font-['Font_Awesome_6_Free'] before:bg-primary"
                             >
@@ -1470,19 +1482,19 @@
                             >
                               Gratis Maintenance Awal
                             </li>
-                          </ul>
+                          </ul> -->
                         </div>
                         <div class="p-40">
                           <a
                             href="https://wa.me/6281234567890?text=Halo%20Mediara%2C%20saya%20tertarik%20paket%20Company%20Profile%20(Rp%201.5jt)"
                             class="btn text-base font-medium w-full text-center block py-12 rounded-none bg-primary text-dark cursor-pointer"
                           >
-                            <span class="pxl-button-text"> Choose plan</span>
+                            <span class="pxl-button-text">Pilih Paket</span>
                           </a>
                         </div>
                         <span
                           class="absolute -top-10 right-1 py-8 px-16 text-xs/[1] font-semibold dark:bg-white dark:text-black bg-black text-white hidden badge"
-                          >RECOMMENDED</span
+                          >REKOMENDASI</span
                         >
                       </div>
                     </div>
@@ -1507,7 +1519,7 @@
                           <p class="mb-40 font-normal text-lg/24">
                             Acara kampus, seminar/webinar, festival, wedding
                           </p>
-                          <ul class="list-items">
+                          <!-- <ul class="list-items">
                             <li
                               class="relative py-4.5 ps-30 text-lightgrey before:content-['\f00c'] before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:size-20 before:leading-20 before:text-center before:text-dark before:text-xs before:rounded-full before:font-black before:font-['Font_Awesome_6_Free'] before:bg-primary"
                             >
@@ -1538,19 +1550,19 @@
                             >
                               Hitung Mundur Acara
                             </li>
-                          </ul>
+                          </ul> -->
                         </div>
                         <div class="p-40">
                           <a
                             href="https://wa.me/6281234567890?text=Halo%20Mediara%2C%20saya%20tertarik%20paket%20Event%20%26%20E-Ticketing%20Platform%20(Rp%202.5jt)"
                             class="btn text-base font-medium w-full text-center block py-12 rounded-none bg-primary text-dark cursor-pointer"
                           >
-                            <span class="pxl-button-text"> Choose plan</span>
+                            <span class="pxl-button-text">Pilih Paket</span>
                           </a>
                         </div>
                         <span
                           class="absolute -top-10 right-1 py-8 px-16 text-xs/[1] font-semibold dark:bg-white dark:text-black bg-black text-white hidden badge"
-                          >TOP CHOICE</span
+                          >PILIHAN UTAMA</span
                         >
                       </div>
                     </div>
@@ -1575,7 +1587,7 @@
                           <p class="mb-40 font-normal text-lg/24">
                             Toko retail, F&B (Kasir/POS), peternakan, logistik
                           </p>
-                          <ul class="list-items">
+                          <!-- <ul class="list-items">
                             <li
                               class="relative py-4.5 ps-30 text-lightgrey before:content-['\f00c'] before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:size-20 before:leading-20 before:text-center before:text-dark before:text-xs before:rounded-full before:font-black before:font-['Font_Awesome_6_Free'] before:bg-primary"
                             >
@@ -1606,19 +1618,19 @@
                             >
                               Full Source Code Ownership
                             </li>
-                          </ul>
+                          </ul> -->
                         </div>
                         <div class="p-40">
                           <a
                             href="https://wa.me/6281234567890?text=Halo%20Mediara%2C%20saya%20tertarik%20paket%20Custom%20Business%20System%20(Rp%204jt)"
                             class="btn text-base font-medium w-full text-center block py-12 rounded-none bg-primary text-dark cursor-pointer"
                           >
-                            <span class="pxl-button-text"> Choose plan</span>
+                            <span class="pxl-button-text">Pilih Paket</span>
                           </a>
                         </div>
                         <span
                           class="absolute -top-10 right-1 py-8 px-16 text-xs/[1] font-semibold dark:bg-white dark:text-black bg-black text-white hidden badge"
-                          >BEST VALUE</span
+                          >NILAI TERBAIK</span
                         >
                       </div>
                     </div>
@@ -1642,7 +1654,7 @@
                         <h2
                           class="xl:text-6xl md:text-5xl text-4xl mb-15 font-medium heading-text"
                         >
-                          Frequently Asked Questions
+                          Pertanyaan Yang Sering Diajukan
                         </h2>
                       </div>
                     </div>
@@ -1881,7 +1893,7 @@
             </section> -->
 
             <!-- 7. FOOTER & CONTACT SECTION -->
-            <footer class="relative overflow-hidden z-2 bg-bodybg" id="contact">
+            <footer class="relative overflow-hidden z-2 bg-bodybg border-t border-black/20 dark:border-white/20" id="contact">
               <!-- Upper Footer -->
               <div class="xl:pt-135 sm:pt-100 pt-60">
                 <div class="container">
@@ -1890,7 +1902,7 @@
                       <h2
                         class="xl:text-[4.2vw]/[4.5vw] sm:text-6xl text-[40px]/50 sm:mb-55 mb-20 font-medium xl:max-w-700 text-white"
                       >
-                        Let's make something great work together.
+                        Wujudkan Website & Sistem Terbaik Bersama Kami.
                       </h2>
                       <!-- <div class="grid grid-cols-12 gap-10">
                         <div class="xl:col-span-3 sm:col-span-6 col-span-12 sm:mb-0 mb-10">
@@ -1959,7 +1971,7 @@
                         <div class="col-span-12">
                           <div class="">
                             <h5 class="text-2xl sm:mb-12 text-white">
-                              Direct WhatsApp Consultation
+                              Konsultasi Langsung via WhatsApp
                             </h5>
                             <div class="">
                               <a
@@ -1967,7 +1979,7 @@
                                 class="btn btn-primary w-full text-center block py-14"
                               >
                                 <span class="pxl-button-text"
-                                  >Konsultasi via WhatsApp</span
+                                  >Konsultasi Gratis Sekarang</span
                                 >
                               </a>
                             </div>
@@ -1988,13 +2000,15 @@
                     <p class="text-lg font-light text-white/60">
                       © <span class="current-year"> 2026</span> ·
                       <a href="#hero" class="hover:text-primary">Mediara</a> ·
-                      Web Design & Custom Systems Agency
+                      Agensi Desain Web & Sistem Kustom
                     </p>
                     <div class="max-sm:mb-20">
                       <img
                         src="assets/images/logo.png"
                         alt="Mediara Logo"
-                        class="h-8 w-auto"
+                        width="120"
+                        height="36"
+                        style="height: 36px; width: auto; max-width: 120px; object-fit: contain; border-radius: 4px;"
                       />
                     </div>
                   </div>
