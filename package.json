@@ -1,13 +1,18 @@
 {
+	"homepage": "https://enghalih.github.io/mediara",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"preinstall": "npx npm-force-resolutions",
-		"dev": "npx @tailwindcss/cli -i ./src/assets/css/tailwind.css -o ./src/assets/css/style.css --watch"
+		"dev": "npx @tailwindcss/cli -i ./src/assets/css/tailwind.css -o ./src/assets/css/style.css --watch",
+		"build:css": "npx @tailwindcss/cli -i ./src/assets/css/tailwind.css -o ./src/assets/css/style.css --minify",
+		"predeploy": "npm run build:css",
+		"deploy": "gh-pages -d src --dotfiles --nojekyll"
 	},
 	"dependencies": {
 		"@tailwindcss/cli": "^4.0.14"
 	},
 	"devDependencies": {
+		"gh-pages": "^6.3.0",
 		"tailwindcss": "^4.0.14"
 	}
 }
