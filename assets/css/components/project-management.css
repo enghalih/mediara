@@ -5,13 +5,13 @@
 	@apply content-[''] h-4 absolute top-[50%] left-[40%] w-[10%] bg-primary;
 }
 .line-left-box .line-num {
-	@apply absolute -right-37.75 top-[50%] translate-y-[-50%] bg-primary rounded-full shadow-[2px_2px_8px_0_rgba(0,0,0,0.3)] text-black text-[40px]/[80px] text-center font-bold size-80;
+	@apply absolute -right-37.75 top-[50%] translate-y-[-50%] bg-primary rounded-full shadow-[2px_2px_8px_0_rgba(0,0,0,0.3)] text-white text-[40px]/[80px] text-center font-bold size-80;
 }
 .line-right-box .line-num {
-	@apply absolute -left-37.75 top-[50%] translate-y-[-50%] bg-primary rounded-full shadow-[2px_2px_8px_0_rgba(0,0,0,0.3)] text-black text-[40px]/[80px] text-center font-bold size-80;
+	@apply absolute -left-37.75 top-[50%] translate-y-[-50%] bg-primary rounded-full shadow-[2px_2px_8px_0_rgba(0,0,0,0.3)] text-white text-[40px]/[80px] text-center font-bold size-80;
 }
 .arrow-bx {
-	@apply bg-[url(../images/arrow-1.png)] w-80 h-55 [background-size:100%] bg-no-repeat;
+	@apply bg-[url(../images/arrow-1.png)] w-80 h-55 [background-size:100%] bg-no-repeat inline-block;
 }
 
 @media only screen and (max-width: 767px) {
@@ -24,7 +24,8 @@
 }
 
 .time-line:after {
-	@apply rounded content-[''] h-full absolute right-[50%] top-0 w-4 block bg-primary;
+	@apply rounded content-[''] absolute right-[50%] top-0 w-4 block bg-primary;
+	height: calc(100% - 100px);
 }
 @media only screen and (max-width: 767px) {
 .time-line:after, .line-right:after {
