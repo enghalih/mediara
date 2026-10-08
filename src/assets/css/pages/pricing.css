@@ -9,18 +9,21 @@
 }
 .pricing-wrapper.active .title,
 .pricing-wrapper.active .title span{
-    @apply text-heading;
+    @apply text-white;
 }
 .pricing-wrapper.active p,
 .pricing-wrapper.active h4{
-    @apply text-heading;
+    @apply text-white;
+}
+.pricing-wrapper.active p {
+    @apply text-white/85;
 }
 .pricing-wrapper.active .list-items li{
-    @apply text-heading;
+    @apply text-white;
 }
 .pricing-wrapper.active .list-items li::before{
-    @apply bg-black/10 text-heading bg-none;
+    @apply bg-white/20 text-white bg-none;
 }
 .pricing-wrapper.active .btn{
-    @apply bg-darkbtn text-white bg-none;
+    @apply bg-darkbtn text-white bg-none hover:bg-black;
 }

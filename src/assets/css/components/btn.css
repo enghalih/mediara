@@ -22,9 +22,14 @@
         justify-content: center;
       }
     .btn-primary {
-        color: var(--color-secondary);
-        color: var(--color-secondary);
+        color: #ffffff !important;
         background-color: var(--color-primary);
+    }
+    .btn-primary .pxl-button-text {
+        color: #ffffff !important;
+    }
+    .btn-primary svg path {
+        stroke: #ffffff !important;
     }
     .btn-black {
         color: var(--color-white);
@@ -135,11 +140,11 @@
     @apply text-white;
 }
   .btn.primary.btn-hover:hover .pxl-button-text {
-    @apply text-secondary;
+    @apply text-white;
 }
   .btn.btn-hover:hover svg path {
     @apply stroke-primary;
 }
   .btn.primary.btn-hover:hover svg path {
-    @apply stroke-black;
+    @apply stroke-white;
 }
