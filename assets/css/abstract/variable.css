@@ -1,11 +1,30 @@
-:root  {
-    --primary: #E3FF75;
-    --secondary: #000000;
-    
-    --bodybg: #191B1D;
-    --bodytext: #505050;
-    --card: #292D32;
-    
-    --title: #fff;
-    --black: #000;
+:root {
+    /* ============================================================
+       MEDIARA BRAND COLOR PALETTE
+       ============================================================ */
+    --mediara-dark: #020A21;       /* Deep Navy Dark Background */
+    --mediara-blue: #2A6EFD;       /* Electric Royal Blue */
+    --mediara-cyan: #22D3EE;       /* Vibrant Neon Cyan */
+    --mediara-purple: #7B4FFC;     /* Radiant Electric Violet */
+
+    /* ============================================================
+       DYNAMIC THEME TOKENS
+       Ubah nilai referensi di bawah untuk mengganti Primary Color:
+       - Opsi 1 (Default): var(--mediara-blue)
+       - Opsi 2:           var(--mediara-cyan)
+       - Opsi 3:           var(--mediara-purple)
+       ============================================================ */
+    --primary: var(--mediara-blue);
+    --secondary: var(--mediara-purple);
+    --accent: var(--mediara-cyan);
+
+    /* Surfaces & Backgrounds */
+    --bodybg: var(--mediara-dark);
+    --bodytext: #8E9DB8;
+    --card: #06102D;
+    --card-light: #0D1A40;
+    --card-border: rgba(42, 110, 253, 0.2);
+
+    --title: #ffffff;
+    --black: #000000;
 }

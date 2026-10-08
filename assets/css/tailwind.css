@@ -17,11 +17,17 @@
     /* COLORS */
     --color-primary: var(--primary);
     --color-secondary: var(--secondary);
+    --color-accent: var(--accent);
     
     --color-bodybg: var(--bodybg);
     --color-bodytext: var(--bodytext);
     --color-card: var(--card);
-    --color-card-light: #424547;
+    --color-card-light: var(--card-light);
+
+    --color-mediara-dark: var(--mediara-dark);
+    --color-mediara-blue: var(--mediara-blue);
+    --color-mediara-cyan: var(--mediara-cyan);
+    --color-mediara-purple: var(--mediara-purple);
     
     --color-title: var(--title);
     --color-black: #000;
