@@ -29,7 +29,7 @@
       property="og:description"
       content="Mediara is a modern technology agency specializing in custom web applications, POS cashier systems, livestock management platforms, event e-ticketing, and high-impact landing pages."
     />
-    <meta property="og:image" content="assets/images/logo.png" />
+    <meta property="og:image" content="assets/images/banner.jpeg" />
 
     <!-- TWITTER META -->
     <meta
@@ -40,7 +40,7 @@
       name="twitter:description"
       content="Mediara is a modern technology agency specializing in custom web applications, POS cashier systems, livestock management platforms, event e-ticketing, and high-impact landing pages."
     />
-    <meta name="twitter:image" content="assets/images/logo.png" />
+    <meta name="twitter:image" content="assets/images/banner.jpeg" />
     <meta name="twitter:card" content="summary_large_image" />
 
     <!-- MOBILE SPECIFIC -->
@@ -60,6 +60,35 @@
     <link rel="stylesheet" href="assets/vendor/animate/animate.min.css" />
     <link rel="stylesheet" href="assets/vendor/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- MEDIARA BRAND COLOR SYSTEM (Ubah warna di sini dengan mudah) -->
+    <style id="mediara-brand-vars">
+      :root {
+        /* Palet 4 Warna Utama Mediara */
+        --mediara-dark: #020A21;       /* Background Gelap Utama */
+        --mediara-blue: #2A6EFD;       /* Electric Royal Blue */
+        --mediara-cyan: #22D3EE;       /* Vibrant Neon Cyan */
+        --mediara-purple: #7B4FFC;     /* Radiant Electric Violet */
+
+        /*
+         * ========================================================
+         * ATUR WARNA PRIMARY DI SINI:
+         * Anda dapat mengganti var(--primary) ke salah satu opsi:
+         *   - var(--mediara-blue)   (Royal Blue - Rekomendasi)
+         *   - var(--mediara-cyan)   (Vibrant Neon Cyan)
+         *   - var(--mediara-purple) (Electric Violet / Ungu)
+         * ========================================================
+         */
+        --primary: var(--mediara-blue);
+        --secondary: var(--mediara-purple);
+        --accent: var(--mediara-cyan);
+
+        /* Background & Surface */
+        --bodybg: var(--mediara-dark);
+        --card: #06102D;
+        --card-light: #0D1A40;
+      }
+    </style>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -83,59 +112,33 @@
         <div class="main-bar-wraper">
           <div class="container-fluid">
             <div class="flex items-center 2xl:gap-40 gap-20 sm:py-40 py-20">
-              <!-- <div class="logo xl:me-20 xl:flex-0 flex-1" style="min-width: 140px;">
-                <div class="dark:block hidden">
-                  <a href="index.html">
-                    <img
-                      src="assets/images/logo.png"
-                      alt="Mediara Logo"
-                      width="140"
-                      height="42"
-                      style="height: 42px; width: auto; max-width: 140px; object-fit: contain; border-radius: 4px;"
-                    />
-                  </a>
-                </div>
-                <div class="dark:hidden block">
-                  <a href="index.html">
-                    <img
-                      src="assets/images/logo.png"
-                      alt="Mediara Logo"
-                      width="140"
-                      height="42"
-                      style="height: 42px; width: auto; max-width: 140px; object-fit: contain; border-radius: 4px;"
-                    />
-                  </a>
-                </div>
-              </div> -->
-              <!-- <div
-                class="w-1 h-50 dark:bg-white/20 bg-black/20 xl:block hidden"
-              ></div> -->
+              <div class="logo xl:me-20 xl:flex-0 flex-1 flex items-center">
+                <a href="#hero" class="inline-flex items-center">
+                  <img
+                    src="assets/images/logo.png"
+                    alt="Mediara Logo"
+                    width="44"
+                    height="44"
+                    style="height: 44px; width: auto; object-fit: contain;"
+                  />
+                </a>
+              </div>
+              <div
+                class="w-1 h-36 dark:bg-white/20 bg-black/20 xl:block hidden"
+              ></div>
               <div
                 class="header-nav navbar-collapse full-sidenav grow custom-scroll"
               >
-                <div class="logo xl:hidden xl:mb-0 mb-50" style="min-width: 140px;">
-                  <div class="dark:block hidden">
-                    <a href="index.html">
-                      <img
-                        src="assets/images/logo.png"
-                        alt="Mediara Logo"
-                        width="140"
-                        height="42"
-                        style="height: 42px; width: auto; max-width: 140px; object-fit: contain; border-radius: 4px;"
-                      />
-                    </a>
-                  </div>
-                  <div class="dark:hidden block">
-                    <a href="index.html">
-                      <img
-                        src="assets/images/logo.png"
-                        alt="Mediara Logo"
-                        width="140"
-                        height="42"
-                        style="height: 42px; width: auto; max-width: 140px; object-fit: contain; border-radius: 4px;"
-                      />
-                    </a>
-                  </div>
+                <div class="logo xl:hidden xl:mb-0 mb-50">
+                  <a href="#hero" class="inline-flex items-center">
+                    <img
+                      src="assets/images/logo.png"
+                      alt="Mediara Logo"
+                      width="44"
+                      height="44"
+                      style="height: 44px; width: auto; object-fit: contain;"
+                    />
+                  </a>
                 </div>
                 <ul class="nav navbar xl:flex xl:w-auto w-full">
                   <li class="">
@@ -935,7 +938,7 @@
                                 <path
                                   class="dark:stroke-primary stroke-dark"
                                   d="M5 12H19"
-                                  stroke="#E3FF75"
+                                  stroke="var(--primary)"
                                   stroke-width="2"
                                   stroke-linecap="round"
                                   stroke-linejoin="round"
@@ -943,7 +946,7 @@
                                 <path
                                   class="dark:stroke-primary stroke-dark"
                                   d="M12 5L19 12L12 19"
-                                  stroke="#E3FF75"
+                                  stroke="var(--primary)"
                                   stroke-width="2"
                                   stroke-linecap="round"
                                   stroke-linejoin="round"
@@ -999,7 +1002,7 @@
                                 <path
                                   class="dark:stroke-primary stroke-dark"
                                   d="M5 12H19"
-                                  stroke="#E3FF75"
+                                  stroke="var(--primary)"
                                   stroke-width="2"
                                   stroke-linecap="round"
                                   stroke-linejoin="round"
@@ -1007,7 +1010,7 @@
                                 <path
                                   class="dark:stroke-primary stroke-dark"
                                   d="M12 5L19 12L12 19"
-                                  stroke="#E3FF75"
+                                  stroke="var(--primary)"
                                   stroke-width="2"
                                   stroke-linecap="round"
                                   stroke-linejoin="round"
@@ -1058,7 +1061,7 @@
                                 <path
                                   class="dark:stroke-primary stroke-dark"
                                   d="M5 12H19"
-                                  stroke="#E3FF75"
+                                  stroke="var(--primary)"
                                   stroke-width="2"
                                   stroke-linecap="round"
                                   stroke-linejoin="round"
@@ -1066,7 +1069,7 @@
                                 <path
                                   class="dark:stroke-primary stroke-dark"
                                   d="M12 5L19 12L12 19"
-                                  stroke="#E3FF75"
+                                  stroke="var(--primary)"
                                   stroke-width="2"
                                   stroke-linecap="round"
                                   stroke-linejoin="round"
@@ -1119,7 +1122,7 @@
                                 <path
                                   class="dark:stroke-primary stroke-dark"
                                   d="M5 12H19"
-                                  stroke="#E3FF75"
+                                  stroke="var(--primary)"
                                   stroke-width="2"
                                   stroke-linecap="round"
                                   stroke-linejoin="round"
@@ -1127,7 +1130,7 @@
                                 <path
                                   class="dark:stroke-primary stroke-dark"
                                   d="M12 5L19 12L12 19"
-                                  stroke="#E3FF75"
+                                  stroke="var(--primary)"
                                   stroke-width="2"
                                   stroke-linecap="round"
                                   stroke-linejoin="round"
@@ -2003,13 +2006,15 @@
                       Agensi Desain Web & Sistem Kustom
                     </p>
                     <div class="max-sm:mb-20">
-                      <img
-                        src="assets/images/logo.png"
-                        alt="Mediara Logo"
-                        width="120"
-                        height="36"
-                        style="height: 36px; width: auto; max-width: 120px; object-fit: contain; border-radius: 4px;"
-                      />
+                      <a href="#hero" class="inline-flex items-center">
+                        <img
+                          src="assets/images/logo.png"
+                          alt="Mediara Logo"
+                          width="40"
+                          height="40"
+                          style="height: 40px; width: auto; object-fit: contain;"
+                        />
+                      </a>
                     </div>
                   </div>
                 </div>

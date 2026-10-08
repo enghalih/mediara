@@ -121,7 +121,7 @@
     background-color: #191B1D;
   }
   .btn-outline.primary.btn-hover::before {
-    background-color: #E3FF75;
+    background-color: var(--primary);
   }
   .btn.btn-hover:hover::before {
     -webkit-transform: scale(1);

@@ -769,7 +769,8 @@ const plexify = function(){
           -Math.PI / 2,
           -Math.PI / 2 + 2 * Math.PI * p
         );
-        ctx.strokeStyle = "#E3FF75";
+        const primaryColor = getComputedStyle(document.documentElement).getPropertyValue('--primary').trim() || '#2A6EFD';
+        ctx.strokeStyle = primaryColor;
         ctx.stroke();
 
         textDiv.textContent = Math.round(p * 100) + "%";
